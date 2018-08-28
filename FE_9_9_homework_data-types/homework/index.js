@@ -72,10 +72,10 @@ function values(array) {
 // 8
 
 function showFormattedDate(date) {
-    const months = ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec'];
-    return `It is ${date.getDate()} of ${months[date.getMonth()]}, ${date.getFullYear()}`;
+    return `It is ${date.getDate()} of ${date.toLocaleString(`en-US`, {month: `short`})}, ${date.getFullYear()}`;
 }
 
+// checked on advice given in gitter regarding last task, made some changes accordingly
 
 
 
