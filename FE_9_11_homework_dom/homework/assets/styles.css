@@ -1,0 +1,113 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+button {
+    border: 0;
+    background: none;
+    padding: 0;
+    cursor: pointer;
+    align-self: center;
+}
+
+#root {
+    margin-top: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+ ul {
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    list-style-type: none;
+}
+
+ ul li {
+    font-weight: bold;
+    margin: 5px 0;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.header {
+    height: 80px;
+    margin-bottom: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.delete_btn {
+    margin-left: auto;
+}
+
+#checked {
+    background-color: black;
+    color: white;
+    margin-right: 10px;
+}
+
+#check {
+    margin-right: 10px;
+}
+
+.wrapper {
+    width: 600px;
+    height: 700px;
+    padding: 20px;
+    border: 1px solid #000;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.todo_list {
+    text-align: center;
+    font-weight: normal;
+    margin-top: 10px;
+}
+
+.limit {
+    text-align: center;
+    display: none;
+    padding-top: 10px;
+}
+
+.input_procedure {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+    border-bottom: 2px solid #000;
+    padding-bottom: 10px;
+}
+
+.todo_input {
+    margin-right: 15px;
+    width: 100%;
+    border: 1px solid #000;
+    padding-left: 5px;
+}
+
+[disabled] {
+    cursor: not-allowed;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+}
+
+.cat_paw {
+    width: auto;
+    height: 60px;
+}
